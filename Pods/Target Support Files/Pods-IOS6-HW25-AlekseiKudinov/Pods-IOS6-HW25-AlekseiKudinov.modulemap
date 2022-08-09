@@ -1,0 +1,6 @@
+module Pods_IOS6_HW25_AlekseiKudinov {
+  umbrella header "Pods-IOS6-HW25-AlekseiKudinov-umbrella.h"
+
+  export *
+  module * { export * }
+}
