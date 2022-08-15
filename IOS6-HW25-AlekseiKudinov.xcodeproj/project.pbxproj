@@ -10,10 +10,19 @@
 		9B8042E051944D7686FEC559 /* libPods-IOS6-HW25-AlekseiKudinov.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9852ACFA1B3EF871058EF7 /* libPods-IOS6-HW25-AlekseiKudinov.a */; };
 		B00432E928A30C0B009C3FD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00432E828A30C0B009C3FD6 /* AppDelegate.swift */; };
 		B00432EB28A30C0B009C3FD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00432EA28A30C0B009C3FD6 /* SceneDelegate.swift */; };
-		B00432ED28A30C0B009C3FD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00432EC28A30C0B009C3FD6 /* ViewController.swift */; };
 		B00432F028A30C0B009C3FD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00432EE28A30C0B009C3FD6 /* Main.storyboard */; };
 		B00432F228A30C0C009C3FD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B00432F128A30C0C009C3FD6 /* Assets.xcassets */; };
 		B00432F528A30C0C009C3FD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00432F328A30C0C009C3FD6 /* LaunchScreen.storyboard */; };
+		B00432FD28A59C1E009C3FD6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00432FC28A59C1E009C3FD6 /* Model.swift */; };
+		B00432FF28A91827009C3FD6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00432FE28A91827009C3FD6 /* MainView.swift */; };
+		B004330128A91837009C3FD6 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B004330028A91837009C3FD6 /* DetailView.swift */; };
+		B004330328A9700A009C3FD6 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B004330228A9700A009C3FD6 /* MainController.swift */; };
+		B004330528A9770B009C3FD6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B004330428A9770B009C3FD6 /* DetailViewController.swift */; };
+		B004330728A99B4A009C3FD6 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B004330628A99B4A009C3FD6 /* Cell.swift */; };
+		B004330A28A99F07009C3FD6 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B004330928A99F07009C3FD6 /* String.swift */; };
+		B004330C28A99F2D009C3FD6 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = B004330B28A99F2D009C3FD6 /* Date.swift */; };
+		B004330E28A99F64009C3FD6 /* UIViewConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = B004330D28A99F64009C3FD6 /* UIViewConstraints.swift */; };
+		B004331028A99FC2009C3FD6 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = B004330F28A99FC2009C3FD6 /* Network.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,11 +32,20 @@
 		B00432E528A30C0B009C3FD6 /* IOS6-HW25-AlekseiKudinov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS6-HW25-AlekseiKudinov.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B00432E828A30C0B009C3FD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B00432EA28A30C0B009C3FD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B00432EC28A30C0B009C3FD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B00432EF28A30C0B009C3FD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B00432F128A30C0C009C3FD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B00432F428A30C0C009C3FD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B00432F628A30C0C009C3FD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B00432FC28A59C1E009C3FD6 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		B00432FE28A91827009C3FD6 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B004330028A91837009C3FD6 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		B004330228A9700A009C3FD6 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		B004330428A9770B009C3FD6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B004330628A99B4A009C3FD6 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		B004330928A99F07009C3FD6 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		B004330B28A99F2D009C3FD6 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		B004330D28A99F64009C3FD6 /* UIViewConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewConstraints.swift; sourceTree = "<group>"; };
+		B004330F28A99FC2009C3FD6 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +66,6 @@
 				414C66A949A1727496E81A20 /* Pods-IOS6-HW25-AlekseiKudinov.debug.xcconfig */,
 				10E715BBB6283FBE6B46E337 /* Pods-IOS6-HW25-AlekseiKudinov.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -81,15 +98,72 @@
 		B00432E728A30C0B009C3FD6 /* IOS6-HW25-AlekseiKudinov */ = {
 			isa = PBXGroup;
 			children = (
-				B00432E828A30C0B009C3FD6 /* AppDelegate.swift */,
-				B00432EA28A30C0B009C3FD6 /* SceneDelegate.swift */,
-				B00432EC28A30C0B009C3FD6 /* ViewController.swift */,
-				B00432EE28A30C0B009C3FD6 /* Main.storyboard */,
-				B00432F128A30C0C009C3FD6 /* Assets.xcassets */,
-				B00432F328A30C0C009C3FD6 /* LaunchScreen.storyboard */,
-				B00432F628A30C0C009C3FD6 /* Info.plist */,
+				B004331328A9B017009C3FD6 /* Resources */,
+				B004331228A9B00F009C3FD6 /* Sources */,
 			);
 			path = "IOS6-HW25-AlekseiKudinov";
+			sourceTree = "<group>";
+		};
+		B004330828A99EF1009C3FD6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B004330928A99F07009C3FD6 /* String.swift */,
+				B004330B28A99F2D009C3FD6 /* Date.swift */,
+				B004330D28A99F64009C3FD6 /* UIViewConstraints.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B004331128A9A805009C3FD6 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B004330F28A99FC2009C3FD6 /* Network.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B004331228A9B00F009C3FD6 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B004331428A9B044009C3FD6 /* App */,
+				B004331528A9B064009C3FD6 /* Scenes */,
+				B004331128A9A805009C3FD6 /* Network */,
+				B004330828A99EF1009C3FD6 /* Extensions */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		B004331328A9B017009C3FD6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B00432EE28A30C0B009C3FD6 /* Main.storyboard */,
+				B00432F328A30C0C009C3FD6 /* LaunchScreen.storyboard */,
+				B00432F628A30C0C009C3FD6 /* Info.plist */,
+				B00432F128A30C0C009C3FD6 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B004331428A9B044009C3FD6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B00432E828A30C0B009C3FD6 /* AppDelegate.swift */,
+				B00432EA28A30C0B009C3FD6 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B004331528A9B064009C3FD6 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				B00432FC28A59C1E009C3FD6 /* Model.swift */,
+				B004330028A91837009C3FD6 /* DetailView.swift */,
+				B004330428A9770B009C3FD6 /* DetailViewController.swift */,
+				B004330228A9700A009C3FD6 /* MainController.swift */,
+				B004330628A99B4A009C3FD6 /* Cell.swift */,
+				B00432FE28A91827009C3FD6 /* MainView.swift */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,9 +263,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B00432ED28A30C0B009C3FD6 /* ViewController.swift in Sources */,
+				B004330328A9700A009C3FD6 /* MainController.swift in Sources */,
+				B004330C28A99F2D009C3FD6 /* Date.swift in Sources */,
+				B004331028A99FC2009C3FD6 /* Network.swift in Sources */,
+				B004330128A91837009C3FD6 /* DetailView.swift in Sources */,
+				B004330E28A99F64009C3FD6 /* UIViewConstraints.swift in Sources */,
 				B00432E928A30C0B009C3FD6 /* AppDelegate.swift in Sources */,
+				B004330A28A99F07009C3FD6 /* String.swift in Sources */,
 				B00432EB28A30C0B009C3FD6 /* SceneDelegate.swift in Sources */,
+				B00432FF28A91827009C3FD6 /* MainView.swift in Sources */,
+				B004330728A99B4A009C3FD6 /* Cell.swift in Sources */,
+				B00432FD28A59C1E009C3FD6 /* Model.swift in Sources */,
+				B004330528A9770B009C3FD6 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +423,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "IOS6-HW25-AlekseiKudinov/Info.plist";
+				INFOPLIST_FILE = "IOS6-HW25-AlekseiKudinov/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -368,7 +451,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "IOS6-HW25-AlekseiKudinov/Info.plist";
+				INFOPLIST_FILE = "IOS6-HW25-AlekseiKudinov/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
